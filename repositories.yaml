@@ -1,0 +1,8 @@
+version: '1'
+git:
+  user: https://github.com/arnulfojr/
+repositories:
+  - name: sanic
+    clone: True
+    branch: develop
+  - name: sanic-persistance-patterns
