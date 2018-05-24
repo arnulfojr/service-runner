@@ -1,0 +1,11 @@
+version: '2.4'
+services:
+  brancher:
+    image: brancher
+    build: .
+    env_file:
+      - .env.local
+    volumes:
+      - ./repositories.yaml:/repositories.yaml
+      - ./repos/:/app/repos/
+

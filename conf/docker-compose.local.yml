@@ -1,0 +1,6 @@
+version: '2.4'
+services:
+  brancher:
+    volumes:
+      - ./src/:/app/src/
+      - ./bin/:/app/bin/
